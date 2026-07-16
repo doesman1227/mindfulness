@@ -37,7 +37,7 @@
 
   var navHTML =
     '<header class="nav" id="nav"><div class="nav-inner">' +
-    '<a class="brand" href="index.html"><span class="dot"><span></span></span>MindShift<small> / まとめノート</small></a>' +
+    '<a class="brand" href="index.html"><span class="dot"><span></span></span>マインドフルネス<small> / まとめノート</small></a>' +
     '<nav class="nav-links" id="navlinks">' +
 
     // about (site entry)
@@ -90,7 +90,7 @@
   var footHTML =
     '<footer><div class="wrap">' +
       '<div class="foot-grid">' +
-        '<div class="foot-brand"><div class="brand"><span class="dot"><span></span></span>MindShift</div>' +
+        '<div class="foot-brand"><div class="brand"><span class="dot"><span></span></span>マインドフルネス</div>' +
           '<p>マインドフルネスについて、専門家ではない個人が自分で調べたことを整理した学習用のまとめノートです。</p></div>' +
         '<div class="foot-col"><h4>マインドフルネスとは</h4>' +
           '<a href="index.html">とは・なにか</a><a href="index.html#why">なぜ求められるのか</a>' +
@@ -104,7 +104,7 @@
       '</div>' +
       '<div class="foot-bottom">' +
         '<p class="foot-disc">このサイトは、医療や心理の専門家ではない個人が、マインドフルネス瞑想・ACT・セルフアクセプタンスについて自分で調べた情報を学習のために整理した個人的なまとめです。記載した数値や効果は研究やメタ分析の報告を引用したものですが、解釈に誤りが含まれる可能性があり、効果には個人差があります。診断・治療・医学的助言に代わるものではありません。心身の不調がある場合は、医療機関や専門家にご相談ください。</p>' +
-        '<p class="foot-copy">© 2026 MindShift ／ マインドフルネスの学習ノート</p>' +
+        '<p class="foot-copy">© 2026 マインドフルネス ／ まとめノート</p>' +
       '</div>' +
     '</div></footer>';
 
