@@ -78,6 +78,7 @@
         '<div class="dd-group"><div class="dd-title">エビデンス</div>' +
           '<a href="column-research.html"><span class="mk"></span>研究で報告されている効果</a></div>' +
         '<div class="dd-group"><div class="dd-title">心を扱うヒント</div>' +
+          '<a href="column-self-acceptance.html"><span class="mk"></span>セルフアクセプタンス（自己受容）</a>' +
           '<a href="column-acceptance.html"><span class="mk"></span>自分を受け入れる4つのメタファー</a>' +
           '<a href="column-troubleshooting.html"><span class="mk"></span>うまくいかない時の対処</a></div>' +
       '</div></div>' +
@@ -100,7 +101,7 @@
           '<a href="practice-stop.html">STOP（その場で）</a><a href="methods.html#habit">28日間チャレンジ</a></div>' +
         '<div class="foot-col"><h4>コラム</h4>' +
           '<a href="column-act.html">ACTの6原理</a><a href="column-research.html">研究データ</a>' +
-          '<a href="column-acceptance.html">自己受容のメタファー</a><a href="column-troubleshooting.html">うまくいかない時</a></div>' +
+          '<a href="column-self-acceptance.html">セルフアクセプタンス</a><a href="column-troubleshooting.html">うまくいかない時</a></div>' +
       '</div>' +
       '<div class="foot-bottom">' +
         '<p class="foot-disc">このサイトは、医療や心理の専門家ではない個人が、マインドフルネス瞑想・ACT・セルフアクセプタンスについて自分で調べた情報を学習のために整理した個人的なまとめです。記載した数値や効果は研究やメタ分析の報告を引用したものですが、解釈に誤りが含まれる可能性があり、効果には個人差があります。診断・治療・医学的助言に代わるものではありません。心身の不調がある場合は、医療機関や専門家にご相談ください。</p>' +

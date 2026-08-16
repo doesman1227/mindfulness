@@ -112,6 +112,7 @@ header.nav.scrolled{border-color:var(--line);box-shadow:0 6px 24px -18px rgba(22
 
 /* ---------- GRIDS / CARDS ---------- */
 .grid{display:grid;gap:24px}
+.span-full{grid-column:1/-1}
 .g-2{grid-template-columns:repeat(2,1fr)}
 .g-3{grid-template-columns:repeat(3,1fr)}
 .g-4{grid-template-columns:repeat(4,1fr)}
@@ -240,6 +241,24 @@ header.nav.scrolled{border-color:var(--line);box-shadow:0 6px 24px -18px rgba(22
 .meta-card .cat{font-size:.68rem;font-weight:700;letter-spacing:.06em;color:var(--orange);margin-bottom:6px}
 .meta-card .eff{margin-top:14px;padding-top:13px;border-top:1px solid var(--line);font-size:.84rem;color:var(--navy)}
 .meta-card .eff b{color:var(--orange)}
+
+/* quotes (名言カード) */
+.quote-card{background:var(--white);border:1px solid var(--line);border-left:5px solid var(--orange);border-radius:var(--radius);padding:26px 30px;box-shadow:var(--shadow);transition:transform .25s}
+.quote-card:hover{transform:translateY(-4px)}
+.quote-card p{font-family:"Noto Serif JP",serif;font-size:1.02rem;font-weight:600;color:var(--navy);line-height:1.85}
+.quote-card p+p{margin-top:14px;padding-top:14px;border-top:1px dashed var(--line)}
+.quote-card .by{margin-top:16px;font-size:.84rem;font-weight:700;color:var(--orange)}
+.quote-card .by small{display:block;margin-top:3px;font-size:.76rem;font-weight:400;color:var(--muted)}
+.dark .quote-card{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.14);border-left-color:var(--orange)}
+.dark .quote-card p{color:#fff}
+.dark .quote-card p+p{border-top-color:rgba(255,255,255,.14)}
+.dark .quote-card .by{color:var(--orange-soft)}
+.dark .quote-card .by small{color:rgba(255,255,255,.55)}
+
+/* source list (出典) */
+.src-list{margin:18px 0 0;padding-left:1.2em;font-size:.86rem;color:var(--muted)}
+.src-list li{margin-bottom:7px}
+.src-list li b{color:var(--navy)}
 
 /* troubleshoot */
 .ts-row{display:grid;grid-template-columns:1fr 1.4fr;gap:20px;align-items:center;background:var(--white);border:1px solid var(--line);border-left:5px solid var(--orange);border-radius:12px;padding:22px 26px;box-shadow:var(--shadow)}
